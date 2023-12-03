@@ -16,3 +16,5 @@ The online version can be found at:
 ## Build Process
 
 After commiting changes to GitHub, GitHub Actions will build the site and deploy to gh-pages.
+
+GIT_USER=mr-coxall npm run deploy
