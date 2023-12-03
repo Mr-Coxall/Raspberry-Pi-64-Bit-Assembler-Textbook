@@ -8,22 +8,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Raspberry Pi 64-Bit Assembler Textbook',
-  tagline: 'An introduction to coding ARM Assembly on the Raspbetty Pi',
+  title: 'My Site',
+  tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://mr-coxall.github.io/',
+  url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/raspberry-pi-64bit-assembly-textbook/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'mr-coxall', // Usually your GitHub org/user name.
-  projectName: '/raspberry-pi-64bit-assembly-textbook/', // Usually your repo name.
-  trailingSlash: false,
-
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -46,9 +44,15 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mr-coxall/raspberry-pi-64bit-assembly-textbook/',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -62,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Raspberry Pi 64-Bit Assembler Textbook',
+        title: 'My Site',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -76,7 +80,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/Mr-Coxall/raspberry-pi-64bit-assembly-textbook',
+            href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
