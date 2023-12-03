@@ -16,12 +16,12 @@ const config = {
   url: 'https://mr-coxall.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/raspberry-pi-64bit-assembly-textbook/',
+  baseUrl: '/raspberry-pi-64-bit-assembly-textbook/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'mr-coxall', // Usually your GitHub org/user name.
-  projectName: '/raspberry-pi-64bit-assembly-textbook/', // Usually your repo name.
+  projectName: '/raspberry-pi-64-bit-assembly-textbook/', // Usually your repo name.
   trailingSlash: false,
 
 
@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mr-coxall/raspberry-pi-64bit-assembly-textbook/',
+            'https://github.com/mr-coxall/raspberry-pi-64-bit-assembly-textbook/',
         },
         blog: false,
         theme: {
@@ -76,7 +76,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/Mr-Coxall/raspberry-pi-64bit-assembly-textbook',
+            href: 'https://github.com/Mr-Coxall/raspberry-pi-64-bit-assembly-textbook',
             label: 'GitHub',
             position: 'right',
           },
