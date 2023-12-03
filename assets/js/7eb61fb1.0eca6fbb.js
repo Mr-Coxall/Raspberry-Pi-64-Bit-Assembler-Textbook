@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkraspberry_pi_64_bit_assembler_textbook=self.webpackChunkraspberry_pi_64_bit_assembler_textbook||[]).push([[2156],{7316:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/Raspberry-Pi-64-Bit-Assembly-Textbook/blog/tags/hola","allTagsPath":"/Raspberry-Pi-64-Bit-Assembly-Textbook/blog/tags","count":1,"unlisted":false}')}}]);
