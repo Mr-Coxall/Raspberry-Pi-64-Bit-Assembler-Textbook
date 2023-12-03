@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkraspberry_pi_64_bit_assembler_textbook=self.webpackChunkraspberry_pi_64_bit_assembler_textbook||[]).push([[1121],{1341:e=>{e.exports=JSON.parse('{"permalink":"/raspberry-pi-64-bit-assembly-textbook/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
